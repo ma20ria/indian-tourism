@@ -23,10 +23,7 @@ nav:hover {
     z-index: -1;
     
 }
-text-below {
-    margin-top: 2rem; /* Adjust margin with rem or percentages */
-    text-align: center;
-}
+
 
 video {
     width: 100%;
@@ -35,6 +32,10 @@ video {
     object-position: center;
 }
 
+text-below {
+    margin-top: 2rem; /* Adjust margin with rem or percentages */
+    text-align: center;
+}
 nav ul {
     list-style: none;
     color: rgb(250, 249, 249);
@@ -118,5 +119,10 @@ a:hover {
 @media (max-width: 768px) {
     .carousel-item img {
         height: 250px; /* Smaller height for smaller screens */
+    }
+}
+@media (max-width: 767px) {
+    .col-md-6 {
+        margin-bottom: 30px;
     }
 }
