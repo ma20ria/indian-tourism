@@ -23,6 +23,10 @@ nav:hover {
     z-index: -1;
     
 }
+text-below {
+    margin-top: 2rem; /* Adjust margin with rem or percentages */
+    text-align: center;
+}
 
 video {
     width: 100%;
