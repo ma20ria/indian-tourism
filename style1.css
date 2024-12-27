@@ -1,0 +1,118 @@
+button {
+    background-color: transparent;
+    color: rgb(245, 240, 240);
+}
+
+.bot {
+    position: relative;
+}
+
+nav:hover {
+    background-color: rgba(255, 255, 255, 0.668);
+    opacity: 0.6;
+    color: rgb(249, 248, 248);
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+nav ul {
+    list-style: none;
+    color: rgb(250, 249, 249);
+    text-decoration: none;
+    transition: 2s;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(224, 216, 216, 0.305);
+    padding: 10px;
+
+    color: rgb(250, 249, 249);
+    opacity: 0.7;
+    text-align: center;
+    transition: 1s;
+}
+.video-text {
+    position: absolute;
+    bottom: 320px;
+    right: 260px;
+    background-color: rgba(252, 249, 249, 0.019);
+    color: black;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 18px;
+   
+    z-index: 100; /* Ensure it's on top */
+}
+
+content {
+    color: rgb(248, 245, 245);
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+
+}
+
+.navbar {
+    position: relative;
+    z-index: 2;
+    color: rgb(248, 241, 241);
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h3 {
+    color: #ffffff;
+}
+
+p {
+    margin-top: 10px;
+    color: #f9f8f8;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+a {
+    color: #f1f0f6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 250px; /* Smaller height for smaller screens */
+    }
+}
